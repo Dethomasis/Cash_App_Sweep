@@ -13,7 +13,7 @@ export default function CashAppPage() {
       <h1 className="text-gray-900 text-base text-center mb-5 leading-tight font-bold">
         Complete the Steps below to Claim your
         <br />
-        <span className="text-[#00D54B] text-[rgba(0,194,67,1)]">$750</span> Cash App Transfer
+        <span className="text-[#00D54B] text-[rgba(0,194,67,1)]">$750</span> Cash Transfer
       </h1>
 
       {/* Quick Start Guide Card */}
