@@ -6,7 +6,7 @@ export default function CashAppPage() {
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 py-5">
       {/* Cash App Logo */}
       <div className="w-56 h-16 rounded-xl flex items-center justify-center mb-4 p-2">
-        <Image src="/images/cash-logo.png" alt="Cash App" width={200} height={50} className="object-contain" />
+        <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-02-03%20at%208.40.38%E2%80%AFAM-7n8Uw5PoaVaes4eLe6tpL5l2mTcTU7.png" alt="Cash App" width={200} height={50} className="object-contain" />
       </div>
 
       {/* Heading */}
