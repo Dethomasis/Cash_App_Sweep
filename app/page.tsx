@@ -6,14 +6,14 @@ export default function CashAppPage() {
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 py-5">
       {/* Cash App Logo */}
       <div className="w-56 h-16 rounded-xl flex items-center justify-center mb-4 p-2">
-        <Image src="/images/cashapp-logo-square.png" alt="Cash App" width={200} height={50} className="object-contain" />
+        <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-02-03%20at%208.43.27%E2%80%AFAM-ed9GBCcIOUmV9be1d9vRiJkXmbKFPY.png" alt="Cash" width={200} height={50} className="object-contain" />
       </div>
 
       {/* Heading */}
       <h1 className="text-gray-900 text-base text-center mb-5 leading-tight font-bold">
         Complete the Steps below to Claim your
         <br />
-        <span className="text-[#00D54B] text-[rgba(0,194,67,1)]">$750</span> Cash App Transfer
+        <span className="text-[#00D54B] text-[rgba(0,194,67,1)]">$750</span> Cash Transfer
       </h1>
 
       {/* Quick Start Guide Card */}
