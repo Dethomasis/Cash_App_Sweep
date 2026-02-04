@@ -6,7 +6,7 @@ export default function SplashPage() {
       {/* Continue Button */}
       <Link
         href="/offer"
-        className="px-16 py-4 bg-[#00D54B] hover:bg-[#00C044] text-white font-bold text-lg rounded-full transition-colors"
+        className="px-16 py-4 bg-[#00D54B] hover:bg-[#00C044] text-white font-bold text-lg rounded-lg transition-colors"
       >
         Continue
       </Link>
