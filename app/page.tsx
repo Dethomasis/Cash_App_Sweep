@@ -1,15 +1,85 @@
-import Link from "next/link"
+import { Check, ChevronRight, ArrowRight } from "lucide-react"
+import Image from "next/image"
 
-export default function SplashPage() {
+export default function CashAppPage() {
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4">
-      {/* Continue Button */}
-      <Link
-        href="/offer"
-        className="px-16 py-4 bg-[#00D54B] hover:bg-[#00C044] text-white font-bold text-lg rounded-lg transition-colors"
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 py-5">
+      {/* Cash App Logo */}
+      <div className="w-56 h-16 rounded-xl flex items-center justify-center mb-4 p-2">
+        <Image src="/images/cash-logo-new.png" alt="Cash" width={200} height={50} className="object-contain" />
+      </div>
+
+      {/* Heading */}
+      <h1 className="text-gray-900 text-base text-center mb-5 leading-tight font-bold">
+        Complete the Steps below to Claim your
+        <br />
+        <span className="text-[#00D54B]">$750</span> Cash App Transfer
+      </h1>
+
+      {/* Quick Start Guide Card */}
+      <div className="w-full max-w-sm bg-gray-50 rounded-lg p-4 mb-3 border border-gray-100">
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-gray-900 text-sm font-bold">Quick Start Guide</h2>
+          <ChevronRight className="w-4 h-4 text-gray-400" />
+        </div>
+
+        <div className="space-y-2.5">
+          <div className="flex items-start gap-2.5">
+            <Check className="w-4 h-4 text-[#00D54B] mt-0.5 flex-shrink-0" />
+            <div>
+              <p className="text-gray-900 text-sm font-bold">Complete 2-3 required deals</p>
+              <p className="text-[#00D54B] text-sm font-semibold">Earn up to $750</p>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-2.5">
+            <Check className="w-4 h-4 text-[#00D54B] mt-0.5 flex-shrink-0" />
+            <div>
+              <p className="text-gray-900 text-sm font-bold">Provide a valid email address</p>
+              <p className="text-[#00D54B] text-sm font-semibold">For instant notification</p>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-2.5">
+            <Check className="w-4 h-4 text-[#00D54B] mt-0.5 flex-shrink-0" />
+            <div>
+              <p className="text-gray-900 text-sm font-bold">Ensure you are 18 years or older</p>
+              <p className="text-[#00D54B] text-sm font-semibold">Required</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Common Questions Card */}
+      <div className="w-full max-w-sm bg-gray-50 rounded-lg p-4 mb-4 border border-gray-100">
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-gray-900 text-sm font-bold">Common Questions</h2>
+          <ChevronRight className="w-4 h-4 text-gray-400" />
+        </div>
+
+        <div className="space-y-2.5">
+          <div>
+            <p className="text-[#00D54B] text-sm font-bold">How long do the deals take?</p>
+            <p className="text-gray-500 text-sm">Quick 10-20 minute completion time per deal</p>
+          </div>
+
+          <div>
+            <p className="text-[#00D54B] text-sm font-bold">What are deals?</p>
+            <p className="text-gray-500 text-sm">Simple tasks like app downloads, surveys, or trial</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Start Now Button */}
+      <a
+        href="https://trkio.org/aff_c?offer_id=1846&aff_id=165496"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full max-w-sm bg-[#00D54B] hover:bg-[#00C044] text-white py-3.5 px-5 flex items-center justify-center gap-2 transition-colors font-bold text-sm rounded-lg"
       >
-        Continue
-      </Link>
+        Start Now
+        <ArrowRight className="w-4 h-4" />
+      </a>
     </div>
   )
 }
